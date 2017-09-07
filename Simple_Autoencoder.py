@@ -33,7 +33,7 @@ def plot_error(data):
 	plt.plot(data)
 	plt.show()
 
-def Autoencorder(xtrain, alpha=0.01, iterations=2000):
+def Autoencorder(xtrain, alpha=0.01, iterations=200):
 
 	np.random.seed(1)
 
